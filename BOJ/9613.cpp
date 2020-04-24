@@ -1,38 +1,29 @@
 #include <iostream>
+#include <vector>
+using namespace std;
 
-const int MAX = 100;
-
-int arr[MAX];
-int t, n, a, b;
-
-int gcd(int a, int b)
-{
-	int r;
-	while (b != 0) {
-		r = a % b;
-		a = b;
-		b = r;
-	}
-	return a;
-}
 int main(void)
 {
-	scanf("%d", &t);
-	while (t--)
+	long long N;
+	int B;
+
+	vector<char> arr;
+
+	scanf("%lld %d", &N, &B);
+	while (N) {
+		int r = N % B;
+		char num;
+		if (r > 9) {
+			r = 'A' + r - 10;
+			num = r;
+		} else {
+			num = '0' + r;
+		}
+		arr.push_back(num);
+		N /= B;
+	}
+	for (int i = arr.size() - 1; i >= 0; i--)
 	{
-		scanf("%d", &n);
-		int gcdSum = 0;
-		for (int i = 0; i < n; i++)
-		{
-			scanf("%d", &arr[i]);
-		}
-		for (int i = 0; i < n - 1; i++)
-		{
-			for (int j = i + 1; j < n; j++)
-			{
-				gcdSum += gcd(arr[i], arr[j]);
-			}
-		}
-		printf("%d\n", gcdSum);
+		printf("%c", arr[i]);
 	}
 }
