@@ -1,16 +1,12 @@
-#include <stdio.h>
+#include <iostream>
 
-int main(void)
+int main()
 {
-	int n, d, sum;
-	sum = 0;
-	scanf("%d", &d);
-	while (~scanf("%1d", &d))
-		sum += d;
-	/*scanf("%d", &n);
-	while (n--) {
-		scanf("%1d", &d);
-		sum += d;
-	}*/
+	int D;
+	int sum = 0;
+	scanf("%d", &D);
+	while (~scanf("%1d", &D)) {
+		sum += D;
+	}
 	printf("%d", sum);
 }
