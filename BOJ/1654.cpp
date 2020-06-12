@@ -1,49 +1,30 @@
 #include <iostream>
-#include <algorithm>
-using namespace std;
 
-int K, N;
+long long arr[10000];
 
-int lanNum[10001];
-
-bool search(int mid)
+int main()
 {
-	int temp = 0;
-	for (int i = 1; i <= K; i++)
-	{
-		temp += lanNum[i] / mid;
-	}
-	if (temp >= N)
-		return true;
-	else
-		return false;
-}
-
-int main(void)
-{
+	int K, N;
 	scanf("%d %d", &K, &N);
-
-	long long  low = 1;
-	long long  high = 0;
-	long long mid = 0;
-
-	for (int i = 1; i <= K; i++)
+	long long lo = 1, hi = -1;
+	for (int i = 0; i < K; i++)
 	{
-		scanf("%d", &lanNum[i]);
-		if (lanNum[i] > high)
-			high = lanNum[i];
+		scanf("%lld", arr + i);
+		if (arr[i] > hi)
+			hi = arr[i] + 1;
 	}
 
-	int maxLength = 0;
-
-	while (low <= high) {
-		mid = low + (high - low) / 2;
-		if (search(mid)) {
-			if (maxLength < mid)
-				maxLength = mid;
-			low = mid + 1;
-		} else
-			high = mid - 1;
+	while (lo + 1 < hi) {
+		long long mid = (lo + hi) / 2;
+		int sum = 0;
+		for (int i = 0; i < K; i++)
+		{
+			sum += arr[i] / mid;
+		}
+		if (sum >= N)
+			lo = mid;
+		else
+			hi = mid;
 	}
-	printf("%d", maxLength);
+	printf("%lld", lo);
 }
