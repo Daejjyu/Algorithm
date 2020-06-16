@@ -1,44 +1,37 @@
 #include<iostream>
+#include<algorithm>
+using namespace std;
 
-int room1[123456];
-int room2[123456];
-int room3[123456];
-
+int room1[123456], room2[123456], room3[123456];
 int N, initAtk;
 
-bool possible(long long mid)
+bool possible(long long hp)
 {
-	long long hp = mid;
-	long long curAtk = initAtk;
+	long long curHp = hp;
+	long long atk = initAtk;
 	for (int i = 0; i < N; i++)
 	{
 		if (room1[i] == 1) {
 			long long mobAtk = room2[i];
 			long long mobHp = room3[i];
 
-			long long mobLife = mobHp / curAtk;
-			if (mobHp%curAtk != 0)
-				mobLife++;
-			long long life = hp / mobAtk;
-			if (hp%mobAtk != 0)
-				life++;
+			long long mobLife = mobHp / atk;
+			if (mobHp%atk) mobLife++;
+			long long life = curHp / mobAtk;
+			if (curHp%mobAtk) life++;
 
 			if (mobLife > life)
 				return false;
-			else
-				hp -= (mobLife - 1)*mobAtk;
+
+			curHp -= (mobLife - 1) * mobAtk;
 		} else {
-			curAtk += room2[i];
-			if (hp + room3[i] < mid)
-				hp += room3[i];
-			else
-				hp = mid;
+			atk += room2[i];
+			curHp = min(hp, curHp + room3[i]);
 		}
 	}
 	return true;
 }
-
-int main(void)
+int main()
 {
 	scanf("%d %d", &N, &initAtk);
 	for (int i = 0; i < N; i++)
@@ -46,11 +39,14 @@ int main(void)
 		scanf("%d %d %d", room1 + i, room2 + i, room3 + i);
 	}
 
-	long long lo = 0, hi = 9223372036854775780;
-	while (lo + 1 < hi) {
+	long long lo = 0, hi = 9e18;
+	while (lo + 1 < hi)
+	{
 		long long mid = (lo + hi) / 2;
-		if (possible(mid)) hi = mid;
-		else lo = mid;
+		if (possible(mid))
+			hi = mid;
+		else
+			lo = mid;
 	}
 	printf("%lld", hi);
 }
