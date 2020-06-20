@@ -2,11 +2,10 @@
 #include<algorithm>
 using namespace std;
 
-int arr[500000];
+int N, M, arr[500000];
 
 int main()
 {
-	int N;
 	scanf("%d", &N);
 	for (int i = 0; i < N; i++)
 	{
@@ -14,27 +13,22 @@ int main()
 	}
 	sort(arr, arr + N);
 
-	int M;
 	scanf("%d", &M);
 	for (int i = 0; i < M; i++)
 	{
-		int num;
-		scanf("%d", &num);
-		int lo = 0, hi = N;
-		bool possible = false;
+		int d;
+		scanf("%d", &d);
+		int lo = -1, hi = N;
 		while (lo + 1 < hi) {
 			int mid = (lo + hi) / 2;
-			if (arr[mid] > num)
+			if (arr[mid] >= d)
 				hi = mid;
 			else
 				lo = mid;
 		}
-		if (arr[lo] == num) {
-			possible = true;
-		}
-		if (possible)
-			printf("1 ");
+		if (arr[hi] == d)
+			printf("%d ", 1);
 		else
-			printf("0 ");
+			printf("%d ", 0);
 	}
 }
