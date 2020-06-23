@@ -9,7 +9,7 @@ pair<int, int> arr[100000];
 bool cmp(pair<int, int> a, pair<int, int> b)
 {
 	if (a.second == b.second)
-		return a.first < b.first;
+		return a.first < b.first; //반례 2, 2 2, 1 2
 	return a.second < b.second;
 }
 
