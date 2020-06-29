@@ -1,50 +1,50 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <cstring>
+#include<iostream>
+#include<string>
+#include<cstring>
+#include<vector>
 using namespace std;
 
-int dp[101];
-string S;
+int N, dp[101];
 vector<string> vec;
-int N;
+string s;
 
-bool match(int idx)
+bool possible(int idx)
 {
 	int &ret = dp[idx];
 	if (ret != -1)
 		return ret;
-	if (idx == S.length())
-		return ret = 1;
-
+	if (idx == s.size())
+		return 1;
 	ret = 0;
 	for (int i = 0; i < vec.size(); i++)
 	{
-		bool flag = true;
-		if (idx + vec[i].length() > S.length())
+		if (idx + vec[i].size() > s.size())
 			continue;
+
+		bool flag = true;
 		for (int j = 0; j < vec[i].size(); j++)
 		{
-			if (S[idx + j] != vec[i][j]) {
+			if (s[idx + j] != vec[i][j]) {
 				flag = false;
 				break;
 			}
 		}
 		if (flag)
-			ret |= match(idx + vec[i].length());
+			ret |= possible(idx + vec[i].size());
 	}
 	return ret;
 }
+
 int main()
 {
-	cin >> S >> N;
+	memset(dp, -1, sizeof(dp));
+	cin >> s >> N;
 	for (int i = 0; i < N; i++)
 	{
-		string s;
-		cin >> s;
-		vec.push_back(s);
+		string str;
+		cin >> str;
+		vec.push_back(str);
 	}
-	memset(dp, -1, sizeof(dp));
 
-	cout << match(0) ? 1 : 0;
+	cout << possible(0);
 }
