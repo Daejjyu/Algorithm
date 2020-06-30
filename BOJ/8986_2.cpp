@@ -10,7 +10,7 @@ long long dist(long long num)
 	long long sum = 0;
 	for (int i = 1; i < N; i++)
 	{
-		sum += abs(arr[0] + i * num - arr[i]);
+		sum += abs(i * num - arr[i]);
 	}
 	return sum;
 }
