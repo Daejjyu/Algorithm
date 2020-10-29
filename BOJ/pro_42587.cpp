@@ -4,6 +4,7 @@
 using namespace std;
 
 //그냥 단순히 돌림.. 실력부족
+//*max_element(priorities.begin(),priorities.end()) 이런게 있다고 한다.
 int solution(vector<int> priorities, int location)
 {
 	vector<int> arr(priorities.size());
