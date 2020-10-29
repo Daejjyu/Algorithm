@@ -1,26 +1,21 @@
 #include <string>
 #include <vector>
-#include <iostream>
 #include <map>
+#include <utility>
 
 using namespace std;
 
-string solution(vector<string> participant, vector<string> completion)
+int solution(vector<vector<string>> clothes)
 {
 	map<string, int> map1;
-	for (int i = 0; i < participant.size(); i++) {
-		map1[participant[i]]++;
+	for (int i = 0; i < clothes.size(); i++) {
+		map1[clothes[i][1]]++;
 	}
-	for (int i = 0; i < completion.size(); i++) {
-		map1[completion[i]]--;
+	vector<pair<string, int>> vec(map1.begin(), map1.end());
+	int answer = 1;
+	for (int i = 0; i < vec.size(); i++) {
+		answer *= (vec[i].second + 1);
 	}
 
-	string answer = "";
-	for (int i = 0; i < participant.size(); i++) {
-		if (map1[participant[i]] > 0) {
-			answer = participant[i];
-			cout << answer << "\n";
-		}
-	}
-	return answer;
+	return answer - 1;
 }
