@@ -1,3 +1,5 @@
+import math
 A, B, V = map(int, input().split())
 
-print(1 + ((V-A) % (A-B)))
+ans = math.ceil((V-A)/(A-B))+1
+print(ans)
