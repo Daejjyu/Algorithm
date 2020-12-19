@@ -1,6 +1,3 @@
-import sys
-sys.setrecursionlimit(50000000)
-
 A, B, C = map(int, input().split())
 
 ans=0
