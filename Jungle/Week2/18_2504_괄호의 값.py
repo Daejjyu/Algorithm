@@ -1,30 +1,98 @@
 string = str(input())
 
-ans1=0
-ans2=0
-cur ='0'
-ans = []
+stack = []
+possible=True
 for i in string:
-    if(i=='(' or i=='['):
-        if(cur == i):
-            ans.append('*')
-        else:
-            ans.append('+')
-            cur = i
-        if(i=='('):
-            ans.append(2)
-            ans1+=1
-        else:
-            ans.append(3)
-            ans2+=1
-    elif(i==')'):
-        ans1-=1
-    else:
-        ans2-=1
-    if(ans1<0 or ans2<0):
+    flag=True
+    if(possible==False):
         break
+    if(i == '(' or i == '['):
+        stack.append(i)
+    elif(i==')'):
+        while(1):
+            if(flag==False):
+                break
+            if (possible == False):
+                break
+            if(len(stack)==0):
+                possible = False
+                break
+            top = stack[-1]
+            if(top == '['):
+                possible=False
+                break
+            if(top == '('):
+                stack.pop()
+                stack.append(2)
+                break
+            temp=0
+            if(type(top)==int):
+                while(1):
+                    if (possible == False):
+                        break
+                    temp += top
+                    stack.pop()
+                    if(len(stack)==0):
+                        possible=False
+                        break
+                    top = stack[-1]
 
-if(ans1<0 or ans2<0):
-    print(0)
+                    if(top == '['):
+                        possible=False
+                        break
+                    elif(top == '('):
+                        temp*=2
+                        stack.pop()
+                        stack.append(temp)
+                        flag=False
+                        break
+    elif(i==']'):
+        while(1):
+            if(flag==False):
+                break
+            if (possible == False):
+                break
+            if(len(stack)==0):
+                possible = False
+                break
+            top = stack[-1]
+            if(top == '('):
+                possible=False
+                break
+            if(top == '['):
+                stack.pop()
+                stack.append(3)
+                break
+            temp=0
+            if(type(top)==int):
+                while(1):
+                    if (possible == False):
+                        break
+                    temp += top
+                    stack.pop()
+                    if(len(stack)==0):
+                        possible=False
+                        break
+                    top = stack[-1]
+
+                    if(top == '('):
+                        possible=False
+                        break
+                    elif(top == '['):
+                        temp*=3
+                        stack.pop()
+                        stack.append(temp)
+                        flag=False
+                        break
+
+
+
+
+for i in stack: # case only ( or [
+    if(i=='(' or i=='['):
+        possible=False
+        break
+if(possible):
+    print(sum(stack))
 else:
-    print(ans)
+    print(0)
