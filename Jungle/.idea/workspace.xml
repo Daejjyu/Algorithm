@@ -20,41 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b145d8-8be8-4532-aa34-a5f5f14a5c98" name="디폴트 변경 목록" comment="solved">
-      <change afterPath="$PROJECT_DIR$/makepy_web.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/makepy.py" beforeDir="false" afterPath="$PROJECT_DIR$/makepy(old).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/01_1260_DFS와 BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/01_1260_DFS와 BFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/02_2606_바이러스.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/02_2606_바이러스.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/03_2178_미로 탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/03_2178_미로 탐색.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/04_7569_토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/04_7569_토마토.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/05_3055_탈출.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/05_3055_탈출.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/06_2294_동전 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/06_2294_동전 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/07_1987_알파벳.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/07_1987_알파벳.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/08_11725_트리의 부모 찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/08_11725_트리의 부모 찾기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/09_2573_빙산.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/09_2573_빙산.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/10_2617_구슬 찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/10_2617_구슬 찾기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/11_2252_줄 세우기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/11_2252_줄 세우기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/12_2637_장난감조립.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/12_2637_장난감조립.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/make_py.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/01_1753_최단경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/01_1753_최단경로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/02_1916_최소비용 구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/02_1916_최소비용 구하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/03_1504_특정한 최단 경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/03_1504_특정한 최단 경로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/04_4485_녹색 옷 입은 애가 젤다지.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/04_4485_녹색 옷 입은 애가 젤다지.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/05_1238_파티.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/05_1238_파티.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/06_1261_알고스팟.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/06_1261_알고스팟.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/07_10473_인간 대포.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/07_10473_인간 대포.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/08_2211_네트워크 복구.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/08_2211_네트워크 복구.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/09_16681_등산.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/09_16681_등산.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/10_5719_거의 최단 경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/10_5719_거의 최단 경로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/11_1162_도로포장.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/11_1162_도로포장.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/12_10217_KCM Travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/12_10217_KCM Travel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/make_py.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/practice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/01_11657_타임머신.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/02_1738_골목길.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/03_1865_웜홀.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/04_1219_오민식의 고민.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/make_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/01_11404_플로이드.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/02_11403_경로 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/03_1389_케빈 베이컨의 6단계 법칙.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/04_1613_역사.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/05_2610_회의준비.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/06_1956_운동.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/07_13168_내일로 여행.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/08_9205_맥주 마시면서 걸어가기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/09_2458_키 순서.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/10_11562_백양로 브레이크.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/11_1507_궁금한 민호.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/12_1602_도망자 원숭이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/13_15723_n단 논법.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +89,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3_2_Dijkstra" />
       <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle" />
+      <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3_2_Dijkstra" />
       <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3" />
     </key>
   </component>
@@ -257,7 +236,7 @@
       <workItem from="1609307020529" duration="26000" />
       <workItem from="1609307049066" duration="562000" />
       <workItem from="1609307951742" duration="3614000" />
-      <workItem from="1609313984329" duration="311000" />
+      <workItem from="1609313984329" duration="433000" />
     </task>
     <task id="LOCAL-00001" summary="solved">
       <created>1608295432420</created>
