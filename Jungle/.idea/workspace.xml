@@ -20,99 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b145d8-8be8-4532-aa34-a5f5f14a5c98" name="디폴트 변경 목록" comment="solved">
-      <change afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/makepy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makepy_web.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/00_exam1_1110.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/00_exam1_1110.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/00_exam2_9095.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/00_exam2_9095.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/00_exam3_2503.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/00_exam3_2503.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/01_2557.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/01_2557_Hello World.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/02_10869.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/02_10869_사칙연산.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/03_2588.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/03_2588_곱셈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/04_9498.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/04_9498_시험 성적.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/05_2753.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/05_2753_윤년.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/06_1085.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/06_1085_직사각형에서 탈출.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/07_2739.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/07_2739_구구단.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/08_10950.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/08_10950_A+B-3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/09_2438.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/09_2438_별 찍기-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/10_10871.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/10_10871_X보다 작은 수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/11_2562.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/11_2562_최댓값.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/12_8958.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/12_8958_OX퀴즈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/13_4344.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/13_4344_평균은 넘겠지.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/14_2577.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/14_2577_숫자의 개수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/15_15596.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/15_15596_정수 N개의 합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/16_11654.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/16_11654_아스키 코드.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/17_2675.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/17_2675_문자열 반복.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/18_1152.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/18_1152_단어의 개수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/19_2908.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/19_2908_상수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/20_9249.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/20_9249_최장 공통부분 문자열.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/21_2869.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/21_2869_달팽이는 올라가고 싶다.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/22_1978.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/22_1978_소수 찾기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/23_9020.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/23_9020_골드바흐의 추측.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/24_1065.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/24_1065_한수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/25_2628.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/25_2628_종이자르기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/26_10872.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/26_10872_팩토리얼.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/27_1914.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/27_1914_하노이 탑.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/28_9663.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/28_9663_N-Queen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/29_1074.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/29_1074_Z.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/30_2750.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/30_2750_수 정렬하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/31_2751.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/31_2751_수 정렬하기2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/32_10989.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/32_10989_수 정렬하기3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/33_1181.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/33_1181_단어 정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/34_2309.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/34_2309_일곱 난쟁이.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/35_10819.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/35_10819_차이를 최대로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/36_10971.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/36_10971_외판원 순회2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/37_2468.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/37_2468_안전 영역.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/GCD.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/GCD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/bfs_dfs_1260.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/bfs_dfs_1260.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/convertNum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/convertNum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/nQueen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/nQueen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/00_exam1_1992_쿼드트리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/00_exam1_1992_쿼드트리.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/00_exam2_10799_쇠막대기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/00_exam2_10799_쇠막대기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/00_exam3_2014_소수의곱.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/00_exam3_2014_소수의곱.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/01_1920_수 찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/01_1920_수 찾기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/02_2805_나무 자르기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/02_2805_나무 자르기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/03_2110_공유기 설치.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/03_2110_공유기 설치.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/04_2470_두 용액.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/04_2470_두 용액.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/05_11053_가장 긴 증가하는 부분 수열.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/05_11053_가장 긴 증가하는 부분 수열.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/06_8983_사냥꾼.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/06_8983_사냥꾼.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/07_2630_색종이 만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/07_2630_색종이 만들기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/08_1629_곱셈.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/08_1629_곱셈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/09_6549_히스토그램에서 가장 큰 직사각형.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/09_6549_히스토그램에서 가장 큰 직사각형.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/10_10830_행렬 제곱.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/10_10830_행렬 제곱.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/11_2261_가장 가까운 두 점.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/11_2261_가장 가까운 두 점.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/12_10828_스택.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/12_10828_스택.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/13_10773_제로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/13_10773_제로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/14_9012_괄호.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/14_9012_괄호.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/15_17608_막대기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/15_17608_막대기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/16_2493_탑.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/16_2493_탑.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/17_10000_원 영역.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/17_10000_원 영역.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/18_2504_괄호의 값.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/18_2504_괄호의 값.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/19_2812_크게 만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/19_2812_크게 만들기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/20_18258_큐 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/20_18258_큐 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/21_2164_카드2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/21_2164_카드2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/22_11866_요세푸스 문제 0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/22_11866_요세푸스 문제 0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/23_3190_뱀.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/23_3190_뱀.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/24_11279_최대 힙.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/24_11279_최대 힙.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/25_1655_가운데를 말해요.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/25_1655_가운데를 말해요.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/26_1715_카드 정렬하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/26_1715_카드 정렬하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/27_13334_철로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/27_13334_철로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/codeforce1217_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/codeforce1217_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/codeforce1217_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/codeforce1217_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/01_1260_DFS와 BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/01_1260_DFS와 BFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/02_2606_바이러스.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/02_2606_바이러스.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/03_2178_미로 탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/03_2178_미로 탐색.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/04_7569_토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/04_7569_토마토.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/05_3055_탈출.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/05_3055_탈출.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/06_2294_동전 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/06_2294_동전 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/07_1987_알파벳.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/07_1987_알파벳.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/08_11725_트리의 부모 찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/08_11725_트리의 부모 찾기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/09_2573_빙산.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/09_2573_빙산.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/10_2617_구슬 찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/10_2617_구슬 찾기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/11_2252_줄 세우기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/11_2252_줄 세우기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/12_2637_장난감조립.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/12_2637_장난감조립.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/make_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/make_py.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/make_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_2_Dijkstra/make_py.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/make_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_3_Bellman_Ford/make_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_입출력, 재귀, 완탐/makepy.py" beforeDir="false" afterPath="$PROJECT_DIR$/makepy(old).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/01_1260_DFS와 BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/01_1260_DFS와 BFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/02_2606_바이러스.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/02_2606_바이러스.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/03_2178_미로 탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/03_2178_미로 탐색.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/04_7569_토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/04_7569_토마토.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/05_3055_탈출.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/05_3055_탈출.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/06_2294_동전 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/06_2294_동전 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/07_1987_알파벳.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/07_1987_알파벳.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/08_11725_트리의 부모 찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/08_11725_트리의 부모 찾기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/09_2573_빙산.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/09_2573_빙산.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/10_2617_구슬 찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/10_2617_구슬 찾기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/11_2252_줄 세우기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/11_2252_줄 세우기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/12_2637_장난감조립.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/12_2637_장난감조립.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/make_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/01_1753_최단경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/01_1753_최단경로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/02_1916_최소비용 구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/02_1916_최소비용 구하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/03_1504_특정한 최단 경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/03_1504_특정한 최단 경로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/04_4485_녹색 옷 입은 애가 젤다지.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/04_4485_녹색 옷 입은 애가 젤다지.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/05_1238_파티.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/05_1238_파티.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/06_1261_알고스팟.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/06_1261_알고스팟.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/07_10473_인간 대포.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/07_10473_인간 대포.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/08_2211_네트워크 복구.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/08_2211_네트워크 복구.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/09_16681_등산.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/09_16681_등산.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/10_5719_거의 최단 경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/10_5719_거의 최단 경로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/11_1162_도로포장.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/11_1162_도로포장.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/12_10217_KCM Travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/12_10217_KCM Travel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/make_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_2_Dijkstra/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/01_11657_타임머신.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/02_1738_골목길.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/03_1865_웜홀.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/04_1219_오민식의 고민.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_3_Bellman_Ford/make_py.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,12 +110,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3_2_Dijkstra" />
       <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle" />
       <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.make_py">
-    <configuration name="07_1987_알파벳" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.makepy_web">
+    <configuration name="ㅎㅇㅁㅎㅁㅇ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Jungle" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,12 +124,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3/07_1987_알파벳.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ㅎㅇㅁㅎㅁㅇ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12_10217_KCM Travel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="make_py (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Jungle" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,34 +146,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3-Graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3-Graph/12_10217_KCM Travel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Jungle" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11/dd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford/make_py.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,7 +173,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_3_Bellman_Ford/make_py.py" />
+      <option name="SCRIPT_NAME" value="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3_2_Dijkstra\make_py.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="makepy_web" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jungle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/makepy_web.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,12 +212,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3-Graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3-Graph/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.make_py" />
-        <item itemvalue="Python.dd" />
-        <item itemvalue="Python.12_10217_KCM Travel" />
-        <item itemvalue="Python.07_1987_알파벳" />
+        <item itemvalue="Python.makepy_web" />
+        <item itemvalue="Python.ㅎㅇㅁㅎㅁㅇ" />
+        <item itemvalue="Python.make_py (1)" />
         <item itemvalue="Python.practice" />
+        <item itemvalue="Python.make_py" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +253,11 @@
       <workItem from="1609075754447" duration="15667000" />
       <workItem from="1609117997840" duration="35091000" />
       <workItem from="1609206603041" duration="33038000" />
-      <workItem from="1609293303488" duration="2047000" />
+      <workItem from="1609293303488" duration="6177000" />
+      <workItem from="1609307020529" duration="26000" />
+      <workItem from="1609307049066" duration="562000" />
+      <workItem from="1609307951742" duration="3614000" />
+      <workItem from="1609313984329" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="solved">
       <created>1608295432420</created>
@@ -511,19 +458,24 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/05_3055_탈출.py</url>
+          <url>file://$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/05_3055_탈출.py</url>
           <line>31</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/05_3055_탈출.py</url>
+          <url>file://$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/05_3055_탈출.py</url>
           <line>9</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week3_1_BFS, DFS, 위상정렬/06_2294_동전 2.py</url>
+          <url>file://$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/06_2294_동전 2.py</url>
           <line>7</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/make_py.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -540,9 +492,10 @@
     <SUITE FILE_PATH="coverage/Jungle$03_2178__.coverage" NAME="03_2178_미로 탐색 커버리지 결과" MODIFIED="1608796306145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$00_exam3_2024_.coverage" NAME="00_exam3_2024_소수의곱 커버리지 결과" MODIFIED="1608781638995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$10_5719___.coverage" NAME="10_5719_거의 최단 경로 커버리지 결과" MODIFIED="1609209862005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$makepy_web.coverage" NAME="makepy_web 커버리지 결과" MODIFIED="1609314242516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Jungle$06_8983_.coverage" NAME="06_8983_사냥꾼 커버리지 결과" MODIFIED="1608708993358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$16_2493_.coverage" NAME="16_2493_탑 커버리지 결과" MODIFIED="1608720344232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$make_py.coverage" NAME="make_py 커버리지 결과" MODIFIED="1609294054109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_3_Bellman_Ford" />
+    <SUITE FILE_PATH="coverage/Jungle$make_py.coverage" NAME="make_py 커버리지 결과" MODIFIED="1609306777910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_3_Bellman_Ford" />
     <SUITE FILE_PATH="coverage/Jungle$02_2606_.coverage" NAME="02_2606_바이러스 커버리지 결과" MODIFIED="1608791430896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$08_11725___.coverage" NAME="08_11725_트리의 부모 찾기 커버리지 결과" MODIFIED="1609075696239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$08_1629_.coverage" NAME="08_1629_곱셈 Coverage Results" MODIFIED="1608349120747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
@@ -555,7 +508,7 @@
     <SUITE FILE_PATH="coverage/Jungle$06_2294__2.coverage" NAME="06_2294_동전 2 커버리지 결과" MODIFIED="1608819011354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$22_11866___0.coverage" NAME="22_11866_요세푸스 문제 0 Coverage Results" MODIFIED="1608439107590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$11_1162_.coverage" NAME="11_1162_도로포장 커버리지 결과" MODIFIED="1609230113490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
-    <SUITE FILE_PATH="coverage/Jungle$practice.coverage" NAME="practice 커버리지 결과" MODIFIED="1609251209048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$practice.coverage" NAME="practice 커버리지 결과" MODIFIED="1609308603596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford" />
     <SUITE FILE_PATH="coverage/Jungle$15_17608_.coverage" NAME="15_17608_막대기 Coverage Results" MODIFIED="1608390979651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$13_10773_.coverage" NAME="13_10773_제로 Coverage Results" MODIFIED="1608389551203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$09_16681_.coverage" NAME="09_16681_등산 커버리지 결과" MODIFIED="1609248261985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
@@ -571,6 +524,7 @@
     <SUITE FILE_PATH="coverage/Jungle$08_2211__.coverage" NAME="08_2211_네트워크 복구 커버리지 결과" MODIFIED="1609240062020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
     <SUITE FILE_PATH="coverage/Jungle$00_exam2_10799_.coverage" NAME="00_exam2_10799_쇠막대기 커버리지 결과" MODIFIED="1608773688777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$11_2261____.coverage" NAME="11_2261_가장 가까운 두 점 커버리지 결과" MODIFIED="1608687587756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$make_py__1_.coverage" NAME="make_py (1) 커버리지 결과" MODIFIED="1609309461038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford" />
     <SUITE FILE_PATH="coverage/Jungle$10_2617__.coverage" NAME="10_2617_구슬 찾기 커버리지 결과" MODIFIED="1609082830847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$05_1238_.coverage" NAME="05_1238_파티 커버리지 결과" MODIFIED="1609173364851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
     <SUITE FILE_PATH="coverage/Jungle$01_1753_.coverage" NAME="01_1753_최단경로 커버리지 결과" MODIFIED="1609149802059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
@@ -582,11 +536,13 @@
     <SUITE FILE_PATH="coverage/Jungle$11_2252__.coverage" NAME="11_2252_줄 세우기 커버리지 결과" MODIFIED="1609091709590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$12_10828_.coverage" NAME="12_10828_스택 Coverage Results" MODIFIED="1608387910324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$04_7569_.coverage" NAME="04_7569_토마토 커버리지 결과" MODIFIED="1608796161894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
+    <SUITE FILE_PATH="coverage/Jungle$.coverage" NAME="ㅎㅇㅁㅎㅁㅇ 커버리지 결과" MODIFIED="1609311722600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Jungle$21_2164_2.coverage" NAME="21_2164_카드2 Coverage Results" MODIFIED="1608430452115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$00_exam1_1992_.coverage" NAME="00_exam1_1992_쿼드트리 커버리지 결과" MODIFIED="1608773428170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$01_1260_DFS_BFS.coverage" NAME="01_1260_DFS와 BFS 커버리지 결과" MODIFIED="1608790946240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$09_2573_.coverage" NAME="09_2573_빙산 커버리지 결과" MODIFIED="1608888588534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$00_exam3_2014___1_.coverage" NAME="00_exam3_2014_소수의곱 (1) 커버리지 결과" MODIFIED="1608784358375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$07_10473__.coverage" NAME="07_10473_인간 대포 커버리지 결과" MODIFIED="1609217414217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$dd.coverage" NAME="dd 커버리지 결과" MODIFIED="1609295459440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11" />
   </component>
 </project>
