@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b145d8-8be8-4532-aa34-a5f5f14a5c98" name="디폴트 변경 목록" comment="solved">
+      <change afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/99_16236_아기 상어.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/01_11404_플로이드.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/02_11403_경로 찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/03_1389_케빈 베이컨의 6단계 법칙.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/04_1613_역사.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/05_2610_회의준비.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/06_1956_운동.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/07_13168_내일로 여행.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/08_9205_맥주 마시면서 걸어가기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/09_2458_키 순서.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/10_11562_백양로 브레이크.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/11_1507_궁금한 민호.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/12_1602_도망자 원숭이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week99_2_Floyd-Warshall/13_15723_n단 논법.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/makepy(old).py" beforeDir="false" afterPath="$PROJECT_DIR$/makepy_old.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +225,8 @@
       <workItem from="1609307020529" duration="26000" />
       <workItem from="1609307049066" duration="562000" />
       <workItem from="1609307951742" duration="3614000" />
-      <workItem from="1609313984329" duration="433000" />
+      <workItem from="1609313984329" duration="773000" />
+      <workItem from="1609315208717" duration="1247000" />
     </task>
     <task id="LOCAL-00001" summary="solved">
       <created>1608295432420</created>
@@ -471,7 +461,7 @@
     <SUITE FILE_PATH="coverage/Jungle$03_2178__.coverage" NAME="03_2178_미로 탐색 커버리지 결과" MODIFIED="1608796306145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$00_exam3_2024_.coverage" NAME="00_exam3_2024_소수의곱 커버리지 결과" MODIFIED="1608781638995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$10_5719___.coverage" NAME="10_5719_거의 최단 경로 커버리지 결과" MODIFIED="1609209862005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
-    <SUITE FILE_PATH="coverage/Jungle$makepy_web.coverage" NAME="makepy_web 커버리지 결과" MODIFIED="1609314242516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jungle$makepy_web.coverage" NAME="makepy_web 커버리지 결과" MODIFIED="1609314489079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Jungle$06_8983_.coverage" NAME="06_8983_사냥꾼 커버리지 결과" MODIFIED="1608708993358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$16_2493_.coverage" NAME="16_2493_탑 커버리지 결과" MODIFIED="1608720344232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$make_py.coverage" NAME="make_py 커버리지 결과" MODIFIED="1609306777910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_3_Bellman_Ford" />
