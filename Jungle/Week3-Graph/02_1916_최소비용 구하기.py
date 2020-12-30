@@ -2,6 +2,7 @@ import sys
 import heapq
 
 
+# 개념
 def solve():
     input = sys.stdin.readline
     N = int(input())

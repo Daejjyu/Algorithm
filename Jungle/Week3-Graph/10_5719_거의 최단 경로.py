@@ -2,6 +2,8 @@ import sys
 import heapq
 
 
+# 1. weight 늘렸을때 최단경로 조건인지 확인. dijkstra[u] + weight[u][v] = dijkstra[v]
+# 2. 예시처럼 0번 노드에서는 모든 weight를 최단 경로로 인식할 수도 있으므로 앞/뒤로 dijkstra[i]의 합이 최단거리면 최단 노드로 인식
 def solve():
     while (1):
         input = sys.stdin.readline

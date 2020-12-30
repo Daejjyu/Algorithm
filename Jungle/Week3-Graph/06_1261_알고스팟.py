@@ -2,6 +2,8 @@ import sys
 import heapq
 
 
+# 1. bfs로 푸는 것
+# 2. 익익스트라로 코스트 map을 갱신해가며 풀기
 def solve():
     input = sys.stdin.readline
 

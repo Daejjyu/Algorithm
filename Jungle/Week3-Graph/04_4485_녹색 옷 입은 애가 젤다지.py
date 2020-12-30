@@ -2,6 +2,7 @@ import sys
 import heapq
 
 
+# cost matrix 갱신
 def solve():
     input = sys.stdin.readline
     T = 0

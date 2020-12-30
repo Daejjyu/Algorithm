@@ -1,6 +1,7 @@
 import sys
 import heapq
 
+# 개념
 input = sys.stdin.readline
 
 V, E = map(int, input().split())

@@ -2,6 +2,9 @@ import sys
 import heapq
 
 
+# 1 -> (check1 or check2)
+# N -> (check1 or check2)
+# path 1 to 2
 def solve():
     input = sys.stdin.readline
     N, E = map(int, input().split())

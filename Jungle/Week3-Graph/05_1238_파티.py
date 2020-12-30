@@ -2,6 +2,7 @@ import sys
 import heapq
 
 
+# N번 노드 기준 양방향
 def solve():
     r = sys.stdin.readline
 
@@ -34,10 +35,7 @@ def solve():
 
     cost1 = get_cost(adj1)
     cost2 = get_cost(adj2)
-    # print(cost1)
-    # print(cost2)
     ans = [i + j for i, j in zip(cost1, cost2)]
-    # print(ans)
     print(max(ans))
 
 
