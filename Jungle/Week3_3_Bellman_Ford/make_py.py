@@ -1,4 +1,4 @@
-# in Excel, CONCATENATE(A1,",")
+# in Excel, CONCATENATE(A1,","), CONCATENATE("'",D1,"',")
 import os.path
 
 list1 = [11657,
@@ -25,16 +25,20 @@ if (ans2 == 2):
     print('파이썬 코드를 원하는 경로에서 실행시켜 주세요')
 else:
     for i in range(len(list1)):
-        # file_dir = str(os.getcwd() + "\%s_%s.%s" % (i+1, list1[i], lang))
-        # print(file_dir)
-        # if(os.path.isfile(file_dir)):  # 이미 파일이 생성되어 있으면
-        #     print('"%s_%s.%s" is exist' % (i+1, list1[i], lang))
-        # else:
         if (i < 9):
-            f = open("%s%s_%s_%s.%s" %
-                     (0, i + 1, list1[i], list2[i], lang), 'w')  # 파일이 없으면
-            f.close()
+            file_dir = str(os.getcwd() + "\%s%s_%s_%s.%s" %
+                           (0, i + 1, list1[i], list2[i], lang))
         else:
-            f = open("%s_%s_%s.%s" %
-                     (i + 1, list1[i], list2[i], lang), 'w')  # 파일이 없으면
-            f.close()
+            file_dir = str(os.getcwd() + "\%s_%s_%s.%s" %
+                           (i + 1, list1[i], list2[i], lang))
+        if (os.path.isfile(file_dir)):  # 이미 파일이 생성되어 있으면
+            print('[error] "', file_dir, '" is exist')
+        else:
+            if (i < 9):
+                f = open("%s%s_%s_%s.%s" %
+                         (0, i + 1, list1[i], list2[i], lang), 'w')  # 파일이 없으면
+                f.close()
+            else:
+                f = open("%s_%s_%s.%s" %
+                         (i + 1, list1[i], list2[i], lang), 'w')  # 파일이 없으면
+                f.close()
