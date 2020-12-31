@@ -1,69 +1,52 @@
-from collections import deque
 import sys
-
-C, R, H = map(int, sys.stdin.readline().split())
-
-boxes = [[0 for r in range(R)] for h in range(H)]
-
-for h in range(H):
-    for r in range(R):
-        boxes[h][r] = list(map(int, sys.stdin.readline().split()))
-
-# visited = [[[0 for c in range(C)] for r in range(R)] for h in range(H)]
-
-que = deque()
-dR = [0, 0, 1, -1, 0, 0]
-dC = [1, -1, 0, 0, 0, 0]
-dH = [0, 0, 0, 0, 1, -1]
-
-dist = 0
+from collections import deque
 
 
-def bfs():
-    global day
-    while (que):
-        curSize = len(que)
-        while (curSize):
-            top = que.popleft()
-            for i in range(6):
-                nextH = top[0] + dH[i]
-                nextR = top[1] + dR[i]
-                nextC = top[2] + dC[i]
-                if (nextH < 0 or nextR < 0 or nextC < 0 or nextH >= H or nextR >= R or nextC >= C):
-                    continue
-                if (boxes[nextH][nextR][nextC] == 0):
-                    boxes[nextH][nextR][nextC] = 1
-                    que.append([nextH, nextR, nextC])
-            curSize -= 1
-        day += 1
+# h축으로 한 번 더 탐색
+# 조건 완료 시 quit()으로 빠르게 종료
+def solve():
+    input = sys.stdin.readline
 
+    C, R, H = map(int, input().split())
+    box = [[list(map(int, input().split())) for _ in range(R)] for _ in range(H)]
 
-flag = 0
-for h in range(H):
-    for r in range(R):
-        for c in range(C):
-            if (boxes[h][r][c] == 1):
-                # visited[h][r][c] == 1
-                que.append([h, r, c])
-                flag = 1
-bfs()
-
-if (flag == 0):  # 토마토가 없음
-    print(-1)
-else:
-    flag = 0
+    que = deque()
+    all_ripe = True
     for h in range(H):
         for r in range(R):
             for c in range(C):
-                if (boxes[h][r][c] == 0):
-                    flag = 1
-                    break
-            if (flag):
-                break
-        if (flag):
-            break
+                if (box[h][r][c] == 1):
+                    que.append([h, r, c])
+                elif (box[h][r][c] == 0):
+                    all_ripe = False  # 안익었다.
 
-    if (flag):  # 안익은 것이 존재
-        print(-1)
-    else:
-        print(day - 1)
+    move = [[1, 0, 0], [-1, 0, 0], [0, 1, 0], [0, -1, 0], [0, 0, 1], [0, 0, -1]]
+    if (all_ripe == True):
+        print(0)
+        quit()
+    day = 0
+
+    while que:
+        for _ in range(len(que)):
+            top_h, top_r, top_c = que.popleft()
+            for h, r, c in move:
+                nextH = top_h + h
+                nextR = top_r + r
+                nextC = top_c + c
+                if (nextH < 0 or nextR < 0 or nextC < 0 or nextH >= H or nextR >= R or nextC >= C):
+                    continue
+                if (box[nextH][nextR][nextC] == 0):
+                    que.append([nextH, nextR, nextC])
+                    box[nextH][nextR][nextC] = 1
+        day += 1
+
+    for h in range(H):
+        for r in range(R):
+            for c in range(C):
+                if (box[h][r][c] == 0):
+                    print(-1)
+                    quit()
+    print(day - 1)
+
+
+solve()

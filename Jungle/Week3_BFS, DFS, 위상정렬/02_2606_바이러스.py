@@ -1,25 +1,28 @@
-N = int(input())
-M = int(input())
-
-connect = [[0 for r in range(N)] for c in range(N)]
-visited = [0] * N
-
-for i in range(M):
-    A, B = map(int, input().split())
-    connect[A - 1][B - 1] = 1
-    connect[B - 1][A - 1] = 1
-
-ans = 0
+import sys
 
 
-def dfs(node):
-    visited[node] = 1
-    for i in range(N):
-        if (connect[node][i] == 1 and visited[i] == 0):
-            dfs(i)
-            global ans
-            ans += 1
+# 개념
+def solve():
+    input = sys.stdin.readline
+
+    N = int(input())
+    M = int(input())
+    adj = [[] for _ in range(N)]
+    for i in range(M):
+        u, v = map(int, input().split())
+        adj[u - 1].append(v - 1)
+        adj[v - 1].append(u - 1)
+
+    visited = [0] * N
+
+    def dfs(node):
+        visited[node] = 1
+        for i in adj[node]:
+            if (visited[i] == 0):
+                dfs(i)
+
+    dfs(0)
+    print(sum(visited) - 1)
 
 
-dfs(0)
-print(ans)
+solve()

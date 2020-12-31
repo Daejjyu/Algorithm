@@ -1,41 +1,36 @@
+import sys
 from collections import deque
 
-R, C = map(int, input().split())
 
-map1 = [0] * R
+# bfs 전형적
+# len으로 que 크기 상수선언하여 bfs 쉽게 구현
+def solve():
+    input = sys.stdin.readline
 
-for i in range(R):
-    map1[i] = list(map(int, input()))
+    R, C = map(int, input().split())
 
-dC = [0, 0, 1, -1]
-dR = [1, -1, 0, 0]
-que = deque()
-visited = [[0 for c in range(C)] for r in range(R)]
+    terrain = [list(map(int, input().strip())) for _ in range(R)]
+    visited = [[0 for _ in range(C)] for _ in range(R)]
 
-dist = 1
-
-
-def bfs(r, c):
-    global dist
-    visited[r][c] = 1
-    que.append([r, c])
-    while (que):
-        curSize = len(que)
-        while (curSize):
-            top = que.popleft()
-            if (top[0] == R - 1 and top[1] == C - 1):
-                end = True
-                return dist
-            for i in range(4):
-                nextR = top[0] + dR[i]
-                nextC = top[1] + dC[i]
+    que = deque()
+    que.append([0, 0])
+    move = [[1, 0], [-1, 0], [0, 1], [0, -1]]
+    cnt = 0
+    while que:
+        cnt += 1
+        for i in range(len(que)):  # len(que)는 상수
+            top_r, top_c = que.popleft()
+            for x, y in move:
+                nextR = top_r + x
+                nextC = top_c + y
                 if (nextR < 0 or nextC < 0 or nextR >= R or nextC >= C):
                     continue
-                if (map1[nextR][nextC] == 1 and visited[nextR][nextC] == 0):
+                if (nextR == R - 1 and nextC == C - 1):
+                    print(cnt + 1)
+                    quit()
+                if (visited[nextR][nextC] == 0 and terrain[nextR][nextC] == 1):
                     que.append([nextR, nextC])
                     visited[nextR][nextC] = 1
-            curSize -= 1
-        dist += 1
 
 
-print(bfs(0, 0))
+solve()
