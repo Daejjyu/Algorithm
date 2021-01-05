@@ -104,22 +104,22 @@ createFolder(path)
 print('..........')
 for i in range(len(p_num)):
     if (i < 9):
-        file_dir = str(path + "\%s%s_%s_%s.%s" %
-                       (0, i + 1, p_num[i], p_name[i], lang))
+        file_dir = str(path + "\%s_%s%s_%s_%s.%s" %
+                       (99, 0, i + 1, p_num[i], p_name[i], lang))
     else:
-        file_dir = str(path + "\%s_%s_%s.%s" %
-                       (i + 1, p_num[i], p_name[i], lang))
+        file_dir = str(path + "\%s_%s_%s_%s.%s" %
+                       (99, i + 1, p_num[i], p_name[i], lang))
     if (os.path.isfile(file_dir)):  # 이미 파일이 생성되어 있으면
         print('[error] "', file_dir, '" is exist')
     else:
         if (i < 9):
-            f = open(path + "\%s%s_%s_%s.%s" %
-                     (0, i + 1, p_num[i], p_name[i], lang), 'w')  # 파일이 없으면
+            f = open(path + "\%s_%s%s_%s_%s.%s" %
+                     (99, 0, i + 1, p_num[i], p_name[i], lang), 'w')  # 파일이 없으면
             f.write("import sys\ninput = sys.stdin.readline")
             f.close()
         else:
-            f = open(path + "\%s_%s_%s.%s" %
-                     (i + 1, p_num[i], p_name[i], lang), 'w')  # 파일이 없으면
+            f = open(path + "\%s_%s_%s_%s.%s" %
+                     (99, i + 1, p_num[i], p_name[i], lang), 'w')  # 파일이 없으면
             f.write("import sys\ninput = sys.stdin.readline")
             f.close()
 
