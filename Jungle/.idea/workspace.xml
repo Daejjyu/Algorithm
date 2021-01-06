@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b145d8-8be8-4532-aa34-a5f5f14a5c98" name="디폴트 변경 목록" comment="solved">
-      <change afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/99_16236_아기 상어.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makepy(old).py" beforeDir="false" afterPath="$PROJECT_DIR$/makepy_old.py" afterDir="false" />
+    <list default="true" id="2811f703-8378-40cc-a067-05034d52389c" name="디폴트 변경 목록" comment="solved">
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week99_4_DP/99_13_11722_가장 긴 감소하는 부분 수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week99_4_DP/99_21_1904_01타일.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week99_4_DP/99_22_2293_동전 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_13_1912_연속합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_14_1912_연속합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_14_1699_제곱수의 합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_15_1699_제곱수의 합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_15_2133_타일 채우기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_16_2133_타일 채우기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_16_2225_합분해.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_18_2225_합분해.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_17_2011_암호코드.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_19_2011_암호코드.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_18_11052_카드 구매하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_20_11052_카드 구매하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_19_1904_01타일.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_20_2294_동전 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_23_2294_동전 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_21_11051_이항 계수 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_24_11051_이항 계수 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_22_12865_평범한 배낭.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_23_16500_문자열 판별.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_25_16500_문자열 판별.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_24_1495_기타리스트.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week99_4_DP/99_26_1495_기타리스트.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week99_4_DP/99_26_11722_가장 긴 감소하는 부분 수열.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +33,6 @@
       </list>
     </option>
   </component>
-  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
-    <envs>
-      <env key="FLASK_APP" value="app" />
-    </envs>
-    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
-    <option name="myEnvs">
-      <map>
-        <entry key="FLASK_APP" value="app" />
-      </map>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -58,8 +44,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="JupyterTrust" id="4dc317d8-ac68-4411-a3c0-b8d0599ee0dc" />
-  <component name="ProjectId" id="1lpTw4bYPT6AUfMuxTBHY6NXTi6" />
+  <component name="ProjectId" id="1mgg59XBtjAj2k7eGc0U7il2cxD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -68,23 +53,107 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle" />
-      <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3_2_Dijkstra" />
-      <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3" />
+      <recent name="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week99_4_DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.makepy_web">
-    <configuration name="ㅎㅇㅁㅎㅁㅇ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.makepy_web_99">
+    <configuration name="99_22_12865_평범한 배낭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jungle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week99_4_DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week99_4_DP/99_22_12865_평범한 배낭.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="99_25_16500_문자열 판별" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jungle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week99_4_DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week99_4_DP\99_25_16500_문자열 판별.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="99_26_11722_가장 긴 감소하는 부분 수열" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jungle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week99_4_DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week99_4_DP/99_26_11722_가장 긴 감소하는 부분 수열.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="99_26_1495_기타리스트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jungle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week99_4_DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week99_4_DP\99_26_1495_기타리스트.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="makepy_web_99" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Jungle" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,95 +166,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ㅎㅇㅁㅎㅁㅇ.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="make_py (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Jungle" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford/make_py.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="make_py" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Jungle" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_3_Bellman_Ford" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Hyun\Daejjyu\Baekjoon\Jungle\Week3_2_Dijkstra\make_py.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="makepy_web" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Jungle" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/makepy_web.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Jungle" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/makepy_web_99.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,200 +177,81 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.makepy_web" />
-        <item itemvalue="Python.ㅎㅇㅁㅎㅁㅇ" />
-        <item itemvalue="Python.make_py (1)" />
-        <item itemvalue="Python.practice" />
-        <item itemvalue="Python.make_py" />
+        <item itemvalue="Python.makepy_web_99" />
+        <item itemvalue="Python.99_26_11722_가장 긴 감소하는 부분 수열" />
+        <item itemvalue="Python.99_26_1495_기타리스트" />
+        <item itemvalue="Python.99_25_16500_문자열 판별" />
+        <item itemvalue="Python.99_22_12865_평범한 배낭" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="d5b145d8-8be8-4532-aa34-a5f5f14a5c98" name="디폴트 변경 목록" comment="" />
-      <created>1608293267357</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1608293267357</updated>
-      <workItem from="1608293268500" duration="1598000" />
-      <workItem from="1608294903966" duration="72961000" />
-      <workItem from="1608652421681" duration="366000" />
-      <workItem from="1608652798858" duration="32235000" />
-      <workItem from="1608785815788" duration="39964000" />
-      <workItem from="1609075614632" duration="138000" />
-      <workItem from="1609075754447" duration="15667000" />
-      <workItem from="1609117997840" duration="35091000" />
-      <workItem from="1609206603041" duration="33038000" />
-      <workItem from="1609293303488" duration="6177000" />
-      <workItem from="1609307020529" duration="26000" />
-      <workItem from="1609307049066" duration="562000" />
-      <workItem from="1609307951742" duration="3614000" />
-      <workItem from="1609313984329" duration="773000" />
-      <workItem from="1609315208717" duration="1247000" />
-    </task>
     <task id="LOCAL-00001" summary="solved">
-      <created>1608295432420</created>
+      <created>1609768685269</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1608295432420</updated>
+      <updated>1609768685269</updated>
     </task>
-    <task id="LOCAL-00002" summary="곱셈">
-      <created>1608347486579</created>
+    <task id="LOCAL-00002" summary="solved">
+      <created>1609771022180</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1608347486580</updated>
+      <updated>1609771022180</updated>
     </task>
     <task id="LOCAL-00003" summary="solved">
-      <created>1608353760979</created>
+      <created>1609845175698</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1608353760979</updated>
+      <updated>1609845175698</updated>
     </task>
     <task id="LOCAL-00004" summary="solved">
-      <created>1608397825385</created>
+      <created>1609849351953</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1608397825385</updated>
+      <updated>1609849351953</updated>
+    </task>
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="2811f703-8378-40cc-a067-05034d52389c" name="디폴트 변경 목록" comment="solved" />
+      <created>1609920464446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609920464446</updated>
+      <workItem from="1609920465931" duration="13178000" />
     </task>
     <task id="LOCAL-00005" summary="solved">
-      <created>1608450886634</created>
+      <created>1609920743438</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1608450886634</updated>
+      <updated>1609920743438</updated>
     </task>
     <task id="LOCAL-00006" summary="solved">
-      <created>1608463968099</created>
+      <created>1609920757043</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1608463968099</updated>
+      <updated>1609920757043</updated>
     </task>
     <task id="LOCAL-00007" summary="solved">
-      <created>1608537988051</created>
+      <created>1609929297164</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1608537988051</updated>
+      <updated>1609929297164</updated>
     </task>
     <task id="LOCAL-00008" summary="solved">
-      <created>1608738601835</created>
+      <created>1609936811438</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1608738601835</updated>
+      <updated>1609936811438</updated>
     </task>
-    <task id="LOCAL-00009" summary="solved">
-      <created>1608791186516</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1608791186516</updated>
-    </task>
-    <task id="LOCAL-00010" summary="solved">
-      <created>1608796443510</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1608796443510</updated>
-    </task>
-    <task id="LOCAL-00011" summary="solved">
-      <created>1608813670605</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1608813670605</updated>
-    </task>
-    <task id="LOCAL-00012" summary="solved">
-      <created>1608819155601</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1608819155601</updated>
-    </task>
-    <task id="LOCAL-00013" summary="solved">
-      <created>1609090757739</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1609090757739</updated>
-    </task>
-    <task id="LOCAL-00014" summary="solved">
-      <created>1609123202172</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1609123202172</updated>
-    </task>
-    <task id="LOCAL-00015" summary="solved">
-      <created>1609149010394</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1609149010394</updated>
-    </task>
-    <task id="LOCAL-00016" summary="update">
-      <created>1609149041665</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1609149041665</updated>
-    </task>
-    <task id="LOCAL-00017" summary="solved">
-      <created>1609149062481</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1609149062481</updated>
-    </task>
-    <task id="LOCAL-00018" summary="solved">
-      <created>1609160652205</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1609160652205</updated>
-    </task>
-    <task id="LOCAL-00019" summary="solved">
-      <created>1609217624891</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1609217624891</updated>
-    </task>
-    <task id="LOCAL-00020" summary="solved">
-      <created>1609293321759</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1609293321759</updated>
-    </task>
-    <task id="LOCAL-00021" summary="solved">
-      <created>1609293351646</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1609293351647</updated>
-    </task>
-    <task id="LOCAL-00022" summary="solved">
-      <created>1609293364000</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1609293364000</updated>
-    </task>
-    <task id="LOCAL-00023" summary="solved">
-      <created>1609293435545</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1609293435545</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,110 +270,110 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="곱셈" />
-    <MESSAGE value="update" />
     <MESSAGE value="solved" />
     <option name="LAST_COMMIT_MESSAGE" value="solved" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/18_2504_괄호의 값.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week2_이분탐색, 분할, 스택, 힙/19_2812_크게 만들기.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/05_3055_탈출.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/05_3055_탈출.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬/06_2294_동전 2.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week99_1_Dijkstra, Bellman_Ford/make_py.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Jungle$02_1916__.coverage" NAME="02_1916_최소비용 구하기 커버리지 결과" MODIFIED="1609150837258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
     <SUITE FILE_PATH="coverage/Jungle$03_2178__.coverage" NAME="03_2178_미로 탐색 커버리지 결과" MODIFIED="1608796306145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$00_exam3_2024_.coverage" NAME="00_exam3_2024_소수의곱 커버리지 결과" MODIFIED="1608781638995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$12_1700__.coverage" NAME="12_1700_멀티탭 스케줄링 커버리지 결과" MODIFIED="1609576101062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$99_07_9465_.coverage" NAME="99_07_9465_스티커 커버리지 결과" MODIFIED="1609850040364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$99_20_2294__2.coverage" NAME="99_20_2294_동전 2 커버리지 결과" MODIFIED="1609926784978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
     <SUITE FILE_PATH="coverage/Jungle$10_5719___.coverage" NAME="10_5719_거의 최단 경로 커버리지 결과" MODIFIED="1609209862005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
-    <SUITE FILE_PATH="coverage/Jungle$makepy_web.coverage" NAME="makepy_web 커버리지 결과" MODIFIED="1609314489079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Jungle$06_8983_.coverage" NAME="06_8983_사냥꾼 커버리지 결과" MODIFIED="1608708993358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$16_2493_.coverage" NAME="16_2493_탑 커버리지 결과" MODIFIED="1608720344232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$make_py.coverage" NAME="make_py 커버리지 결과" MODIFIED="1609306777910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_3_Bellman_Ford" />
-    <SUITE FILE_PATH="coverage/Jungle$02_2606_.coverage" NAME="02_2606_바이러스 커버리지 결과" MODIFIED="1608791430896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$08_11725___.coverage" NAME="08_11725_트리의 부모 찾기 커버리지 결과" MODIFIED="1609075696239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$08_1629_.coverage" NAME="08_1629_곱셈 Coverage Results" MODIFIED="1608349120747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$12_10217_KCM_Travel.coverage" NAME="12_10217_KCM Travel 커버리지 결과" MODIFIED="1609261809053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$99_13_1912_.coverage" NAME="99_13_1912_연속합 커버리지 결과" MODIFIED="1609860066707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$05_11049___.coverage" NAME="05_11049_행렬 곱셈 순서 커버리지 결과" MODIFIED="1609770619587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$99_15_2133__.coverage" NAME="99_15_2133_타일 채우기 커버리지 결과" MODIFIED="1609896415053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$99_18_11052__.coverage" NAME="99_18_11052_카드 구매하기 커버리지 결과" MODIFIED="1609925791388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
     <SUITE FILE_PATH="coverage/Jungle$23_3190_.coverage" NAME="23_3190_뱀 Coverage Results" MODIFIED="1608438617675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_22_12865__.coverage" NAME="99_22_12865_평범한 배낭 커버리지 결과" MODIFIED="1609930431086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
     <SUITE FILE_PATH="coverage/Jungle$19_2812__.coverage" NAME="19_2812_크게 만들기 Coverage Results" MODIFIED="1608475612823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$03_1504___.coverage" NAME="03_1504_특정한 최단 경로 커버리지 결과" MODIFIED="1609155390347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
-    <SUITE FILE_PATH="coverage/Jungle$17_10000__.coverage" NAME="17_10000_원 영역 Coverage Results" MODIFIED="1608536208438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$05_3055_.coverage" NAME="05_3055_탈출 커버리지 결과" MODIFIED="1608813298616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$06_2294__2.coverage" NAME="06_2294_동전 2 커버리지 결과" MODIFIED="1608819011354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Jungle$22_11866___0.coverage" NAME="22_11866_요세푸스 문제 0 Coverage Results" MODIFIED="1608439107590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$11_1162_.coverage" NAME="11_1162_도로포장 커버리지 결과" MODIFIED="1609230113490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$02_1904_01.coverage" NAME="02_1904_01타일 커버리지 결과" MODIFIED="1609401416349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
     <SUITE FILE_PATH="coverage/Jungle$practice.coverage" NAME="practice 커버리지 결과" MODIFIED="1609308603596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford" />
-    <SUITE FILE_PATH="coverage/Jungle$15_17608_.coverage" NAME="15_17608_막대기 Coverage Results" MODIFIED="1608390979651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$13_10773_.coverage" NAME="13_10773_제로 Coverage Results" MODIFIED="1608389551203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$09_16681_.coverage" NAME="09_16681_등산 커버리지 결과" MODIFIED="1609248261985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
-    <SUITE FILE_PATH="coverage/Jungle$07_1987_.coverage" NAME="07_1987_알파벳 커버리지 결과" MODIFIED="1609251857412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
+    <SUITE FILE_PATH="coverage/Jungle$10_1931_.coverage" NAME="10_1931_회의실배정 커버리지 결과" MODIFIED="1609571454914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$04_12865__.coverage" NAME="04_12865_평범한 배낭 커버리지 결과" MODIFIED="1609767877570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$99_14_1699__.coverage" NAME="99_14_1699_제곱수의 합 커버리지 결과" MODIFIED="1609863242016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
     <SUITE FILE_PATH="coverage/Jungle$14_9012_.coverage" NAME="14_9012_괄호 Coverage Results" MODIFIED="1608389953198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$04_4485_____.coverage" NAME="04_4485_녹색 옷 입은 애가 젤다지 커버리지 결과" MODIFIED="1609157406372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
-    <SUITE FILE_PATH="coverage/Jungle$10_10830__.coverage" NAME="10_10830_행렬 제곱 Coverage Results" MODIFIED="1608386288599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$06_1261_.coverage" NAME="06_1261_알고스팟 커버리지 결과" MODIFIED="1609160529084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
-    <SUITE FILE_PATH="coverage/Jungle$18_2504__.coverage" NAME="18_2504_괄호의 값 Coverage Results" MODIFIED="1608463050941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$27_13334_.coverage" NAME="27_13334_철로 Coverage Results" MODIFIED="1608466136114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$24_11279__.coverage" NAME="24_11279_최대 힙 Coverage Results" MODIFIED="1608446129578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$26_1715__.coverage" NAME="26_1715_카드 정렬하기 Coverage Results" MODIFIED="1608452013230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_02_11727_2_n__2.coverage" NAME="99_02_11727_2×n 타일링 2 커버리지 결과" MODIFIED="1609848181416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$00_exam_3_.coverage" NAME="00_exam_3_ 커버리지 결과" MODIFIED="1609388095113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬" />
+    <SUITE FILE_PATH="coverage/Jungle$07_2253_.coverage" NAME="07_2253_점프 커버리지 결과" MODIFIED="1609843596084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$99_1520__.coverage" NAME="99_1520_내리막 길 커버리지 결과" MODIFIED="1609757099127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$99_06_2193_.coverage" NAME="99_06_2193_이친수 커버리지 결과" MODIFIED="1609920277333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
     <SUITE FILE_PATH="coverage/Jungle$08_2211__.coverage" NAME="08_2211_네트워크 복구 커버리지 결과" MODIFIED="1609240062020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
-    <SUITE FILE_PATH="coverage/Jungle$00_exam2_10799_.coverage" NAME="00_exam2_10799_쇠막대기 커버리지 결과" MODIFIED="1608773688777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_04_10844___.coverage" NAME="99_04_10844_쉬운 계단 수 커버리지 결과" MODIFIED="1609848807336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$06_2098__.coverage" NAME="06_2098_외판원 순회 커버리지 결과" MODIFIED="1609832130076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
     <SUITE FILE_PATH="coverage/Jungle$11_2261____.coverage" NAME="11_2261_가장 가까운 두 점 커버리지 결과" MODIFIED="1608687587756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$make_py__1_.coverage" NAME="make_py (1) 커버리지 결과" MODIFIED="1609309461038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_2_Dijkstra, Bellman_Ford" />
-    <SUITE FILE_PATH="coverage/Jungle$10_2617__.coverage" NAME="10_2617_구슬 찾기 커버리지 결과" MODIFIED="1609082830847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$05_1238_.coverage" NAME="05_1238_파티 커버리지 결과" MODIFIED="1609173364851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$99_1958_LCS3.coverage" NAME="99_1958_LCS3 커버리지 결과" MODIFIED="1609763677636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$makepy_web_99.coverage" NAME="makepy_web_99 커버리지 결과" MODIFIED="1609936955997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Jungle$01_1753_.coverage" NAME="01_1753_최단경로 커버리지 결과" MODIFIED="1609149802059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$99_11_11055_____.coverage" NAME="99_11_11055_가장 큰 증가 부분 수열 커버리지 결과" MODIFIED="1609860823109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
     <SUITE FILE_PATH="coverage/Jungle$09_6549____.coverage" NAME="09_6549_히스토그램에서 가장 큰 직사각형 커버리지 결과" MODIFIED="1608687583595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_12_11054_____.coverage" NAME="99_12_11054_가장 긴 바이토닉 부분 수열 커버리지 결과" MODIFIED="1609861688057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
     <SUITE FILE_PATH="coverage/Jungle$05_11053_____.coverage" NAME="05_11053_가장 긴 증가하는 부분 수열 커버리지 결과" MODIFIED="1608700678319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$20_18258__2.coverage" NAME="20_18258_큐 2 Coverage Results" MODIFIED="1608389170708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$12_2637_.coverage" NAME="12_2637_장난감조립 커버리지 결과" MODIFIED="1609123076739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$25_1655__.coverage" NAME="25_1655_가운데를 말해요 Coverage Results" MODIFIED="1608449360719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_16236__.coverage" NAME="99_16236_아기 상어 커버리지 결과" MODIFIED="1609316998017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬" />
+    <SUITE FILE_PATH="coverage/Jungle$99_23_16500__.coverage" NAME="99_23_16500_문자열 판별 커버리지 결과" MODIFIED="1609933721080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$00_exam_1_.coverage" NAME="00_exam_1_ 커버리지 결과" MODIFIED="1609387155974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬" />
     <SUITE FILE_PATH="coverage/Jungle$11_2252__.coverage" NAME="11_2252_줄 세우기 커버리지 결과" MODIFIED="1609091709590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$12_10828_.coverage" NAME="12_10828_스택 Coverage Results" MODIFIED="1608387910324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$04_7569_.coverage" NAME="04_7569_토마토 커버리지 결과" MODIFIED="1608796161894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$.coverage" NAME="ㅎㅇㅁㅎㅁㅇ 커버리지 결과" MODIFIED="1609311722600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jungle$.coverage" NAME="ㅔㄱㅁㅊ샻ㄷ 커버리지 결과" MODIFIED="1609567616338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_2_Floyd-Warshall" />
     <SUITE FILE_PATH="coverage/Jungle$21_2164_2.coverage" NAME="21_2164_카드2 Coverage Results" MODIFIED="1608430452115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$00_exam1_1992_.coverage" NAME="00_exam1_1992_쿼드트리 커버리지 결과" MODIFIED="1608773428170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Jungle$01_1260_DFS_BFS.coverage" NAME="01_1260_DFS와 BFS 커버리지 결과" MODIFIED="1608790946240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$09_2573_.coverage" NAME="09_2573_빙산 커버리지 결과" MODIFIED="1608888588534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
-    <SUITE FILE_PATH="coverage/Jungle$00_exam3_2014___1_.coverage" NAME="00_exam3_2014_소수의곱 (1) 커버리지 결과" MODIFIED="1608784358375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$09_2573_.coverage" NAME="09_2573_빙산 커버리지 결과" MODIFIED="1609343534550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬" />
+    <SUITE FILE_PATH="coverage/Jungle$09_1541__.coverage" NAME="09_1541_잃어버린 괄호 커버리지 결과" MODIFIED="1609570529323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
     <SUITE FILE_PATH="coverage/Jungle$07_10473__.coverage" NAME="07_10473_인간 대포 커버리지 결과" MODIFIED="1609217414217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$03_9251_LCS.coverage" NAME="03_9251_LCS 커버리지 결과" MODIFIED="1609762628746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$99_72_2293_1.coverage" NAME="99_72_2293_동전1 커버리지 결과" MODIFIED="1609916544532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$00_exam3_2024_.coverage" NAME="00_exam3_2024_소수의곱 커버리지 결과" MODIFIED="1608781638995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$makepy_web.coverage" NAME="makepy_web 커버리지 결과" MODIFIED="1609845294364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jungle$99_05_11057__.coverage" NAME="99_05_11057_오르막 수 커버리지 결과" MODIFIED="1609849141505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$16_2493_.coverage" NAME="16_2493_탑 커버리지 결과" MODIFIED="1608720344232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_10_11053_____.coverage" NAME="99_10_11053_가장 긴 증가하는 부분 수열 커버리지 결과" MODIFIED="1609859418202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$02_2606_.coverage" NAME="02_2606_바이러스 커버리지 결과" MODIFIED="1608791430896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
+    <SUITE FILE_PATH="coverage/Jungle$01_2748___2.coverage" NAME="01_2748_피보나치 수 2 커버리지 결과" MODIFIED="1609394423729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$08_11725___.coverage" NAME="08_11725_트리의 부모 찾기 커버리지 결과" MODIFIED="1609075696239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
+    <SUITE FILE_PATH="coverage/Jungle$08_1629_.coverage" NAME="08_1629_곱셈 Coverage Results" MODIFIED="1608349120747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$12_10217_KCM_Travel.coverage" NAME="12_10217_KCM Travel 커버리지 결과" MODIFIED="1609261809053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$practice__1_.coverage" NAME="practice (1) 커버리지 결과" MODIFIED="1609346345872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬" />
+    <SUITE FILE_PATH="coverage/Jungle$17_10000__.coverage" NAME="17_10000_원 영역 Coverage Results" MODIFIED="1608536208438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$05_3055_.coverage" NAME="05_3055_탈출 커버리지 결과" MODIFIED="1608813298616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
+    <SUITE FILE_PATH="coverage/Jungle$11_1162_.coverage" NAME="11_1162_도로포장 커버리지 결과" MODIFIED="1609230113490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$99_08_2156__.coverage" NAME="99_08_2156_포도주 시식 커버리지 결과" MODIFIED="1609850878813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$99_03_9095_1__2__3_.coverage" NAME="99_03_9095_1, 2, 3 더하기 커버리지 결과" MODIFIED="1609848388339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$15_17608_.coverage" NAME="15_17608_막대기 Coverage Results" MODIFIED="1608390979651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$07_1987_.coverage" NAME="07_1987_알파벳 커버리지 결과" MODIFIED="1609251857412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
+    <SUITE FILE_PATH="coverage/Jungle$00_exam_3_1967____1_.coverage" NAME="00_exam_3_1967_트리의 지름 (1) 커버리지 결과" MODIFIED="1609388461612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬" />
+    <SUITE FILE_PATH="coverage/Jungle$10_10830__.coverage" NAME="10_10830_행렬 제곱 Coverage Results" MODIFIED="1608386288599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$06_1261_.coverage" NAME="06_1261_알고스팟 커버리지 결과" MODIFIED="1609160529084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$18_2504__.coverage" NAME="18_2504_괄호의 값 Coverage Results" MODIFIED="1608463050941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_24_1495_.coverage" NAME="99_24_1495_기타리스트 커버리지 결과" MODIFIED="1609935127258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$27_13334_.coverage" NAME="27_13334_철로 Coverage Results" MODIFIED="1608466136114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$24_11279__.coverage" NAME="24_11279_최대 힙 Coverage Results" MODIFIED="1608446129578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$26_1715__.coverage" NAME="26_1715_카드 정렬하기 Coverage Results" MODIFIED="1608452013230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$00_exam_2_.coverage" NAME="00_exam_2_ 커버리지 결과" MODIFIED="1609377920869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬" />
+    <SUITE FILE_PATH="coverage/Jungle$00_exam2_10799_.coverage" NAME="00_exam2_10799_쇠막대기 커버리지 결과" MODIFIED="1608773688777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_17_2011_.coverage" NAME="99_17_2011_암호코드 커버리지 결과" MODIFIED="1609922178820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$10_2617__.coverage" NAME="10_2617_구슬 찾기 커버리지 결과" MODIFIED="1609082830847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
+    <SUITE FILE_PATH="coverage/Jungle$11_1946__.coverage" NAME="11_1946_신입 사원 커버리지 결과" MODIFIED="1609572868812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Dp, Greedy" />
+    <SUITE FILE_PATH="coverage/Jungle$05_1238_.coverage" NAME="05_1238_파티 커버리지 결과" MODIFIED="1609173364851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3-Graph" />
+    <SUITE FILE_PATH="coverage/Jungle$25_1655__.coverage" NAME="25_1655_가운데를 말해요 Coverage Results" MODIFIED="1608449360719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_26_11722_____.coverage" NAME="99_26_11722_가장 긴 감소하는 부분 수열 커버리지 결과" MODIFIED="1609935660032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$99_21_11051___2.coverage" NAME="99_21_11051_이항 계수 2 커버리지 결과" MODIFIED="1609929205110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$12_10828_.coverage" NAME="12_10828_스택 Coverage Results" MODIFIED="1608387910324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_16_2225_.coverage" NAME="99_16_2225_합분해 커버리지 결과" MODIFIED="1609914329521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$00_exam1_1992_.coverage" NAME="00_exam1_1992_쿼드트리 커버리지 결과" MODIFIED="1608773428170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
+    <SUITE FILE_PATH="coverage/Jungle$99_01_1463_1_.coverage" NAME="99_01_1463_1로 만들기 커버리지 결과" MODIFIED="1609848455515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
+    <SUITE FILE_PATH="coverage/Jungle$01_1260_DFS_BFS.coverage" NAME="01_1260_DFS와 BFS 커버리지 결과" MODIFIED="1609321378661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_BFS, DFS, 위상정렬" />
+    <SUITE FILE_PATH="coverage/Jungle$00_exam3_2014___1_.coverage" NAME="00_exam3_2014_소수의곱 (1) 커버리지 결과" MODIFIED="1608784358375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Jungle$dd.coverage" NAME="dd 커버리지 결과" MODIFIED="1609295459440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11" />
+    <SUITE FILE_PATH="coverage/Jungle$99_09_2579__.coverage" NAME="99_09_2579_계단 오르기 커버리지 결과" MODIFIED="1609851414292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week99_4_DP" />
   </component>
 </project>
