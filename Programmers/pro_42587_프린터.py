@@ -1,9 +1,8 @@
 def solution(priorities, location):
     queue =  [(i,p) for i,p in enumerate(priorities)]
-    #enumerate를 쓰면 편하게 idx를 구할 수 있다.
     answer = 0
     while True:
-        cur = queue.pop(0)
+        cur = queue.pop(0) #큐 import 하는게 나을듯
         if any(cur[1] < q[1] for q in queue):
             queue.append(cur)
         else:
