@@ -1,11 +1,21 @@
+import heapq
+from collections import deque
+
 def solution(priorities, location):
-    queue =  [(i,p) for i,p in enumerate(priorities)]
-    answer = 0
-    while True:
-        cur = queue.pop(0) #큐 import 하는게 나을듯
-        if any(cur[1] < q[1] for q in queue):
-            queue.append(cur)
+    max_heap = []
+    idx_prio = deque()
+    for idx, num in enumerate(priorities):
+        heapq.heappush(max_heap,-num)
+        idx_prio.append((num,idx))
+    
+    cnt=0
+    while(True):
+        top = idx_prio.popleft()
+        if(top[0]== -1*max_heap[0]):
+            cnt+=1
+            if(top[1]==location):
+                break
+            heapq.heappop(max_heap)
         else:
-            answer += 1
-            if cur[0] == location:
-                return answer
+            idx_prio.append(top)         
+    return cnt
