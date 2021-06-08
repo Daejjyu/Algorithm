@@ -1,8 +1,5 @@
 def solution(brown, yellow):
-    for x in range(brown//2):
-        for y in range(brown//2):
-            if(x*y==brown+yellow and 2*x+2*y-4==brown):
-                if(x>y):
-                    return [x,y]
-                else:
-                    return [y,x]
+    for h in range(3,2500):
+        for w in range(h,2500):
+            if((w-2)*(h-2)==yellow and h*w==brown+yellow):
+                return [w,h]
