@@ -1,48 +1,36 @@
-# https://velog.io/@syc1013/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1
+def findLeft(idx,cur,name):
+    move = 0
+    while(cur[idx]!=name[idx]):
+        idx-=1
+        move+=1
+        if(idx<0):
+            idx=len(cur)-1
+        if(move>100):
+            break
+    return [idx,move]
+
+def findRight(idx,cur,name):
+    move=-1
+    for i in range(idx,len(cur)):
+        move+=1
+        if(cur[i]!=name[i]):
+            return [i,move]
+    for i in range(0,idx):
+        move+=1
+        if(cur[i]!=name[i]):
+            return [i,move]
+    return [idx,move]
+
 def solution(name):
-    def topDown(answer,c):
-        answer += min((ord(c) - 65, 90-ord(c)+1))
-        return answer
-    def leftRight(wordToChange, name, i):
-        moveR=1
-        moveL=1
-        #right
-        while True:            
-            if i+moveR > len(name)-1:
-                indexR = i+moveR - len(name)
-            else: 
-                indexR = i+moveR
-            if wordToChange[indexR] != name[indexR]:
-                break
-            moveR+=1
-        #left
-        while True:            
-            if i-moveL < 0:
-                indexL = i-moveL + len(name)
-            else: 
-                indexL = i-moveL
-            if wordToChange[indexL] != name[indexL]:
-                break
-            moveL+=1
+    cur=["A"]*len(name)
+    control = 0
+    idx=0
+    while(''.join(cur)!=name):
+        r, moveR = findRight(idx,cur,name)
+        l, moveL = findLeft(idx,cur,name)
+        idx,moveNext = [r,moveR] if moveR<=moveL else [l,moveL]
+        upControl = min(ord(name[idx])-ord("A"),1+ord("Z")-ord(name[idx]))
+        control+=(moveNext+upControl)
+        cur[idx]=name[idx]
         
-        if moveR <= moveL:
-            return moveR, indexR
-        else:
-            return moveL, indexL
-        
-    answer = 0
-    cursor = 0
-    wordToChange = ['A']*len(name)
-    name=list(name)
-    #topDown
-    for c in name:
-        answer = topDown(answer, c)
-    #leftRight
-    while wordToChange != name:
-        #change first letter
-        wordToChange[cursor] = name[cursor]
-        #start move
-        move, cursor = leftRight(wordToChange, name, cursor)
-        wordToChange[cursor] = name[cursor]
-        answer+= move
-    return answer
+    return control
