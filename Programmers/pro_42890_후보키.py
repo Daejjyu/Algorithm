@@ -1,10 +1,23 @@
+from collections import deque
+from itertools import combinations
+
 def solution(relation):
-    transpose = [x for x in zip(*relation)]
-    colLen =len(transpose[0])
-    isKey = [0]*colLen
-    for i in range(len(transpose)):
-        print(transpose[i])
-        if(len(transpose[i])==len(set(transpose[i]))):
-            isKey[i]=1
-    print(isKey)
-    return colLen
+    nRow = len(relation)
+    nCol = len(relation[0])
+    
+    candidates = []
+    for i in range(1,nCol+1):
+        candidates +=combinations(range(nCol),i)
+        
+    uniqueness = []
+    for keys in candidates:
+        tmp=[tuple([item[key] for key in keys]) for item in relation]
+        if len(set(tmp))==nRow:
+            uniqueness.append(keys)
+            
+    minimality=set(uniqueness[:])
+    for i in range(len(uniqueness)):
+        for j in range(i+1,len(uniqueness)):
+            if len(uniqueness[i])==len(set(uniqueness[i]) & (set(uniqueness[j]))): 
+                minimality.discard(uniqueness[j])
+    return len(minimality)
