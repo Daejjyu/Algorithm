@@ -1,6 +1,6 @@
 from itertools import combinations
 from collections import defaultdict
-from bisect import bisect_left, bisect_right
+from bisect import bisect_left
 
 def solution(info, query):
     info_dict=defaultdict(list)
