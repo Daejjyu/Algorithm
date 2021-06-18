@@ -1,5 +1,4 @@
 def solution(n, times):
-    answer = 0
     lo = -1
     hi = int(1e19)
     while(lo+1<hi):
@@ -13,4 +12,4 @@ def solution(n, times):
             hi=mid
         else:
             lo=mid      
-    return hi
+    return hi # 최대값(조건 만족 값) 중 최소값
