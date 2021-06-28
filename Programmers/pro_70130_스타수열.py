@@ -3,11 +3,11 @@ def solution(a):
     L = len(a)
     if(L==1):
         return 0
-    numCnt=Counter(a)
+    numCnt=Counter(a).most_common()
     answer=0
-    for k, v in numCnt.items():
-        if numCnt[k]*2<answer:
-            continue
+    for k, cnt in numCnt:
+        if cnt*2<answer:
+            return answer
         idx = 0        
         length =0
         while idx < L-1:
