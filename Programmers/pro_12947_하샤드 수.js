@@ -1,4 +1,4 @@
 function solution(x) {
-    const sum = [...x + ""].reduce((acc, v) => acc + 1 * v, 0)
-    return x % sum === 0;
+    const digitSum = [...x + ''].reduce((a, v) => a += v | 0, 0)
+    return x % digitSum === 0;
 }

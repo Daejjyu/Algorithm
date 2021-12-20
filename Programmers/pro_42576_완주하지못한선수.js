@@ -1,13 +1,6 @@
 function solution(participant, completion) {
-    const dict = []
-    completion.forEach((v) => {
-        dict[v] = dict[v] ? dict[v] + 1 : 1
-    })
-    for (let i = 0, len = participant.length; i < len; i++) {
-        let v = participant[i]
-        dict[v] = dict[v] ? dict[v] - 1 : -1
-        if (dict[v] == -1)
-            return v
-    }
-    return -1;
+    const participantDict = {}
+    participant.forEach(name => participantDict[name] ? participantDict[name] += 1 : participantDict[name] = 1)
+    completion.forEach(name => participantDict[name] -= 1)
+    return Object.entries(participantDict).find(([_, value]) => value > 0)[0]
 }

@@ -1,11 +1,8 @@
 function solution(left, right) {
-    let answer = 0;
-    for (let i = left; i <= right; i++) {
-        let sqrtN = Math.sqrt(i, 2)
-        if (sqrtN === parseInt(sqrtN))
-            answer -= i
-        else
-            answer += i
-    }
-    return answer;
+    return Array(right - left + 1)
+        .fill(0)
+        .reduce((acc, _, i) =>
+            parseInt(Math.sqrt(left + i)) === Math.sqrt(left + i) ?
+                acc -= left + i : acc += left + i, 0
+        );
 }
