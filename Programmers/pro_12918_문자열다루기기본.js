@@ -1,10 +1,3 @@
 function solution(s) {
-    const len = s.length
-    if (len !== 4 && len !== 6)
-        return false
-    for (let i = 0; i < len; i++) {
-        if (s[i] < '0' || s[i] > '9')
-            return false
-    }
-    return true;
+    return (s.length === 4 || s.length === 6) && [...s].filter(c => c == +c).length === s.length;
 }

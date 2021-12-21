@@ -1,8 +1,4 @@
+const cmp = (a, b) => a - b
 function solution(A, B) {
-    A.sort((a, b) => a - b)
-    B.sort((a, b) => b - a)
-
-    return A.reduce((acc, v, i) => {
-        return acc + v * B[i]
-    }, 0);
+    return B.sort(cmp).reverse() && A.sort(cmp).reduce((a, _, i) => a += A[i] * B[i], 0);
 }

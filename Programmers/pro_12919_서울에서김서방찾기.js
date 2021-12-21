@@ -1,6 +1,3 @@
 function solution(seoul) {
-    for (let i = 0, len = seoul.length; i < len; i++)
-        if (seoul[i] === 'Kim')
-            return "김서방은 " + i + "에 있다"
-    return -1;
+    return `김서방은 ${seoul.findIndex(v => v === 'Kim')}에 있다`;
 }

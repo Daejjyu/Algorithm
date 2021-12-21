@@ -1,5 +1,4 @@
 function solution(arr) {
-    const minN = Math.min(...arr)
-    arr = arr.filter((v) => v > minN)
-    return arr.length ? arr : [-1];
+    const min = Math.min(...arr);
+    return arr.length === 1 ? [-1] : arr.filter(v => v !== min);
 }

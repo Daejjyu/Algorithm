@@ -1,4 +1,4 @@
 function solution(s) {
-    s = s.split(" ").map((v) => parseInt(v)).sort((a, b) => a - b)
-    return s[0] + " " + s[s.length - 1];
+    const arr = s.split(' ').sort((a, b) => +a - +b)
+    return arr[0] + ' ' + arr[arr.length - 1];
 }
