@@ -8,13 +8,12 @@ def solution(relation):
     candidates = []
     for i in range(1,nCol+1):
         candidates +=combinations(range(nCol),i)
-        
+    
     uniqueness = []
     for keys in candidates:
-        tmp=[tuple([item[key] for key in keys]) for item in relation]
+        tmp=[item[key] for key in keys for item in relation]
         if len(set(tmp))==nRow:
             uniqueness.append(keys)
-            
     minimality=set(uniqueness[:])
     for i in range(len(uniqueness)):
         for j in range(i+1,len(uniqueness)):
